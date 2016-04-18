@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+<!-- sitemap-generator-url="http://www.auditmypc.com/free-sitemap-generator.asp" -->
+<!-- This sitemap was created using the free tool found here: http://www.auditmypc.com/free-sitemap-generator.asp -->
+<!-- Audit My PC also offers free security tools to help keep you safe during internet travels -->
+<urlset 
+		xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+		http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
 <url>
-  <loc>http://www.buildconsand.com/</loc>
-  <lastmod>2016-04-16T19:54:30+00:00</lastmod>
+    <loc>https://buildconsand.com</loc>
+    <lastmod>2016-04-18T17:16:46+05:30</lastmod>
 </url>
 <url>
-  <loc>http://www.buildconsand.com/index.html</loc>
-  <lastmod>2016-04-16T19:54:30+00:00</lastmod>
+    <loc>https://buildconsand.com/assets/css/main.css</loc>
+    <lastmod>2016-04-18T17:16:46+05:30</lastmod>
+</url>
+<url>
+    <loc>https://buildconsand.com/index.html</loc>
+    <lastmod>2016-04-18T17:16:46+05:30</lastmod>
+</url>
+<url>
+    <loc>https://buildconsand.com/cdn-cgi/l/email-protection</loc>
+</url>
+<url>
+    <loc>https://buildconsand.com/cdn-cgi/styles/cf.errors.css</loc>
+    <lastmod>2016-04-14T11:25:22+05:30</lastmod>
 </url>
 </urlset>
