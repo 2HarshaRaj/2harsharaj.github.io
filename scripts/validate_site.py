@@ -6,6 +6,7 @@ import re, sys, xml.etree.ElementTree as ET
 ROOT=Path(__file__).resolve().parents[1]
 PAGES=[Path('index.html'),Path('phis-termux-backup/index.html'),Path('phis-termux-backup/privacy.html'),Path('phis-termux-backup/terms.html')]
 REQUIRED=PAGES+[Path('assets/site.css'),Path('robots.txt'),Path('sitemap.xml'),Path('google6327aedd63778de2.html')]
+RETIRED=[Path('assets/css'),Path('assets/fonts'),Path('assets/js'),Path('assets/sass')]
 class Parser(HTMLParser):
  def __init__(self): super().__init__(); self.links=[]; self.tags=set(); self.lang=False; self.title=False
  def handle_starttag(self,tag,attrs):
@@ -15,6 +16,8 @@ class Parser(HTMLParser):
 errors=[]
 for p in REQUIRED:
  if not (ROOT/p).is_file(): errors.append(f'missing: {p}')
+for p in RETIRED:
+ if (ROOT/p).exists(): errors.append(f'retired Buildcon asset remains: {p}')
 for rel in PAGES:
  parser=Parser(); parser.feed((ROOT/rel).read_text())
  for tag in ('main','header','footer'):

@@ -1,1 +1,67 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>PHIS Termux Backup | Personal Automation Utilities</title><link rel="stylesheet" href="/assets/site.css"></head><body><a class="skip-link" href="#main">Skip to main content</a><header class="site-header"><div class="wrap"><a class="brand" href="/">Personal Automation Utilities</a></div></header><main id="main" class="wrap"><article class="content"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> / PHIS Termux Backup</nav><p class="eyebrow">Owner-operated pilot</p><h1>PHIS Termux Backup</h1><p class="lede">A personal utility for creating encrypted PostgreSQL backup archives and storing them in the owner's Google Drive.</p><div class="notice"><strong>Pilot status:</strong> backups and deployment remain in a pilot phase. This page does not claim production readiness or unattended operation.</div><h2>How it works</h2><ol><li>A database backup is created on the owner-controlled device.</li><li>The archive is encrypted on-device with an <code>age</code> public key.</li><li>Only the encrypted archive is uploaded to the owner's Google Drive using rclone and Google's OAuth <code>drive.file</code> scope.</li></ol><p>The recovery key or private identity is not included with the uploaded ciphertext. Google Drive is the storage provider; this website only documents the utility and does not run backups.</p><h2>Limited, personal use</h2><p>This is a single-user, non-commercial experiment. It has no public signup, web login, downloads, or hosted automation. Google authorization takes place on the owner's device, not on this website.</p><nav class="page-links"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a><a href="/">All utilities</a></nav></article></main><footer><div class="wrap"><p>Informational pages for a privately operated personal utility.</p></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PHIS Termux Backup | Personal Automation Utilities</title>
+    <link rel="stylesheet" href="/assets/site.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/">Personal Automation Utilities</a>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <article class="content">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="/">Home</a> / PHIS Termux Backup
+        </nav>
+        <p class="eyebrow">Owner-operated pilot</p>
+        <h1>PHIS Termux Backup</h1>
+        <p class="lede">
+          A personal utility for creating encrypted PostgreSQL backup archives
+          and storing them in the owner's Google Drive.
+        </p>
+        <div class="notice">
+          <strong>Pilot status:</strong> backups and deployment remain in a
+          pilot phase. This page does not claim production readiness or
+          unattended operation.
+        </div>
+        <h2>How it works</h2>
+        <ol>
+          <li>A database backup is created on the owner-controlled device.</li>
+          <li>
+            The archive is encrypted on-device with an <code>age</code> public
+            key.
+          </li>
+          <li>
+            Only the encrypted archive is uploaded to the owner's Google Drive
+            using rclone and Google's OAuth <code>drive.file</code> scope.
+          </li>
+        </ol>
+        <p>
+          The recovery key or private identity is not included with the uploaded
+          ciphertext. Google Drive is the storage provider; this website only
+          documents the utility and does not run backups.
+        </p>
+        <h2>Limited, personal use</h2>
+        <p>
+          This is a single-user, non-commercial experiment. It has no public
+          signup, web login, downloads, or hosted automation. Google
+          authorization takes place on the owner's device, not on this website.
+        </p>
+        <nav class="page-links">
+          <a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a
+          ><a href="/">All utilities</a>
+        </nav>
+      </article>
+    </main>
+    <footer>
+      <div class="wrap">
+        <p>Informational pages for a privately operated personal utility.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -6,9 +6,11 @@ Static public information for privately operated, non-commercial personal automa
 
 - `/index.html`: reusable landing page
 - `/phis-termux-backup/`: homepage, privacy policy, and terms
-- `/assets/site.css`: self-contained styling
+- `/assets/site.css`: the site's only stylesheet; it is self-contained and has no external dependencies
 - `/google6327aedd63778de2.html`: historical Google verification file retained pending owner review
 - `/scripts/validate_site.py`: dependency-free static checks
+
+The retired Buildcon template directories (`assets/css/`, `assets/fonts/`, `assets/js/`, and `assets/sass/`) and their Creative Commons license were removed together because no current page uses or derives from those template assets. Validation requires those directories to remain absent.
 
 Do not add health data, personal details, database content, OAuth credentials or tokens, keys, archives, private Drive identifiers, infrastructure details, analytics, forms, trackers, or automation runtime code.
 
