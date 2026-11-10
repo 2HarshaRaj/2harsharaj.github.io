@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /cdn-cgi/
+Allow: /
+
+Sitemap: https://2harsharaj.github.io/sitemap.xml

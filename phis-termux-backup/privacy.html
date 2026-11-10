@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy | PHIS Termux Backup</title>
+    <link rel="stylesheet" href="/assets/site.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/">Personal Automation Utilities</a>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <article class="content">
+        <nav class="breadcrumbs">
+          <a href="/">Home</a> / <a href="./">PHIS Termux Backup</a> / Privacy
+        </nav>
+        <p class="eyebrow">Last updated: 10 November 2026</p>
+        <h1>Privacy Policy</h1>
+        <p class="lede">
+          This policy explains the privacy boundaries of the owner-operated PHIS
+          Termux Backup pilot and its informational website.
+        </p>
+        <h2>Google authorization</h2>
+        <p>
+          The utility requests Google's <code>drive.file</code> scope. This
+          limits access to files and folders created by the app or explicitly
+          authorized for it rather than granting access to all unrelated Drive
+          content. Google sign-in and OAuth authorization occur on the owner's
+          device. This website has no OAuth flow and does not collect tokens.
+        </p>
+        <h2>Google data used</h2>
+        <p>
+          During the pilot, the utility uses or is expected to use the
+          authenticated Google account and contents and metadata of app-created
+          or explicitly authorized Drive backup items. Authorized operations may
+          include uploading, listing, verifying, restoring, and deleting backup
+          archives. It is not designed to read unrelated Google account data.
+        </p>
+        <h2>Backup encryption and credentials</h2>
+        <p>
+          Database plaintext is handled on the owner-controlled device and
+          encrypted there with an <code>age</code> public key before upload.
+          Google Drive receives encrypted archives. The recovery key or private
+          identity is not included in the uploaded ciphertext. OAuth
+          credentials, private keys, and other private credentials remain on the
+          owner-controlled device or in the owner's password manager.
+        </p>
+        <h2>Website data practices</h2>
+        <p>
+          This informational website has no custom cookies, login, forms,
+          analytics, tracking pixels, or advertising. It does not sell personal
+          data or share it with advertisers. GitHub may process hosting logs and
+          Google may process authentication and storage data under their own
+          policies. Google Drive holds the encrypted backups, so use involves a
+          third-party storage provider.
+        </p>
+        <h2>Access and revocation</h2>
+        <p>
+          There are no public-user accounts. The owner can revoke OAuth access
+          through their Google Account security settings. Revocation stops
+          future authorized access but does not itself remove existing encrypted
+          files from Drive.
+        </p>
+        <h2>Contact and updates</h2>
+        <p>
+          Questions may be raised through the owner's
+          <a href="https://github.com/2HarshaRaj">public GitHub profile</a>.
+          This policy may be updated when pilot behavior changes; the updated
+          date identifies the current version. No legal, regulatory, security,
+          or availability assurance is made.
+        </p>
+        <nav class="page-links">
+          <a href="./">App homepage</a><a href="terms.html">Terms</a
+          ><a href="/">All utilities</a>
+        </nav>
+      </article>
+    </main>
+    <footer>
+      <div class="wrap">
+        <p>PHIS Termux Backup is a private, non-commercial pilot.</p>
+      </div>
+    </footer>
+  </body>
+</html>
